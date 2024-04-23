@@ -1,0 +1,36 @@
+/* Body elementi için genel stiller */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Yazı tipi belirlenir. */
+    text-align: center; /* Metin hizalama merkezde yapılır. */
+}
+
+/* Rakip seçim alanı için stiller */
+#opponent-choice {
+    width: 240px; /* Genişlik belirlenir. */
+    height: 240px; /* Yükseklik belirlenir. */
+    /* background-color: cyan; */ /* Arka plan rengi (yorum satırı olarak devre dışı bırakılmış). */
+    margin-top: 10px; /* Üst kenar boşluğu belirlenir. */
+}
+
+/* Kullanıcı seçim alanı için stiller */
+#your-choice {
+    width: 240px; /* Genişlik belirlenir. */
+    height: 240px; /* Yükseklik belirlenir. */
+    /* background-color: yellow; */ /* Arka plan rengi (yorum satırı olarak devre dışı bırakılmış). */
+    margin-top: 10px; /* Üst kenar boşluğu belirlenir. */
+}
+
+/* Seçenekler alanı için stiller */
+#choices {
+    width: 240px; /* Genişlik belirlenir. */
+    height: 80px; /* Yükseklik belirlenir. */
+    /* background-color: green; */ /* Arka plan rengi (yorum satırı olarak devre dışı bırakılmış). */
+    margin: 0 auto; /* Otomatik yatay hizalama yapılır. */
+    margin-top: 10px; /* Üst kenar boşluğu belirlenir. */
+}
+
+/* Seçenekler alanında bulunan resimler için stiller */
+#choices img {
+    width: 80px; /* Genişlik belirlenir. */
+    height: 80px; /* Yükseklik belirlenir. */
+}
